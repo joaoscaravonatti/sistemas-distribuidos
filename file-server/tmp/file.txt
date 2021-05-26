@@ -1,3 +1,2 @@
 Transferencia de arquivos
 Socket
-Cuzin preto
