@@ -24,7 +24,6 @@ class Server:
       conn, addr = self.server.accept()
       print(f'Cliente {addr} conectou.')
       self.clients.append((conn, addr))
-
     self.listen()
 
   def close(self):
@@ -94,7 +93,6 @@ def main():
     server.close()
 
   server.close()  
-
 
 if __name__ == '__main__':
   main()
