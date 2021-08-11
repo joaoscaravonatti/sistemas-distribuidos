@@ -92,7 +92,7 @@ def main():
   finally:
     server.close()
 
-  server.close()  
+  server.close()
 
 if __name__ == '__main__':
   main()
